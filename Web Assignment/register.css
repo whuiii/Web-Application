@@ -1,0 +1,68 @@
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-image: url('Create New Account picture.png'); /* Background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fixed background */
+    margin: 0;
+    padding: 0;
+    color: crimson; /* Setting text color to crimson red */
+    position: relative; /* Positioning for the logo */
+}
+.pixelated {
+    image-rendering: pixelated;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+.container {
+    max-width: 400px;
+    margin: 50px auto; /* Increased margin to move the container down */
+    background: rgba(255, 255, 255, 0.8); /* Background color with opacity */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    text-align: center;
+    color: #B20303; /* Setting title color to #B20303 */
+}
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 25px; /* Rounded border */
+    box-sizing: border-box;
+    background-color: #f2f2f2; /* Light gray background color */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+input[type="submit"] {
+    width: 100%;
+    background-color: #B20303; /* Setting button color to #B20303 */
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 25px; /* Rounded border */
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Slightly raised button effect */
+}
+input[type="submit"]:hover {
+    background-color: #7E0202; /* Darker shade of #B20303 for hover */
+}
+.logo {
+    position: absolute;
+    top: -50px; /* Move the logo up */
+    left: 15px;
+    width: 100px; /* Adjust the size of the logo as needed */
+    height: auto;
+}
+
+.error{
+    background:#F2DEDE;
+    color:#A94442;
+    padding: 10px;
+    width:95%;
+    border-radius:5px;
+}
